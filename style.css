@@ -1,0 +1,89 @@
+html{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+*{
+    font-size: 1rem;
+    color: rgb(94, 93, 93);
+}
+.collapse{
+    display: flex;
+    justify-content:flex-end;
+    margin: 1% 0px 0px;
+}
+.btn{
+    background-color: rgb(0, 217, 255);
+}
+.nav-link{
+    color: black;
+    margin: 0px 10px 50%;
+}
+.nav-link:hover{
+    color: gray;
+}
+.img{
+    display: flex;
+    justify-content: center;
+}
+.sarch{
+    position: absolute;
+    border: 2px solid rgb(230, 227, 227);
+    border-radius: 5px;
+    width: 60%;
+    height: 3em;
+    margin: 20px 0px 0%;
+    display: flex;
+    justify-content: center;
+}
+.fa-search{
+    color: gray;
+    position: absolute;
+    font-size: 120%;
+    margin: 0px -3% 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.tout{
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fa-microphone{
+    margin: 0px 0.5% 0px;
+    color: blue;
+    position: absolute;
+    font-size: 120%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.fas:hover{
+    color: rgb(255, 208, 0);
+}
+.form{
+    border: hidden;
+}
+.form:hover{
+   border:hidden ;
+}
+.button-group{
+    position: absolute;
+    width: 100%;
+    margin: 6% 0px 0px;
+    display: flex;
+    justify-content: center;
+}
+.btne{
+    background-color: rgb(214, 214, 214);
+    margin: 0px 0.5% 0px;
+    width: 20%;
+}
+.btne:hover{
+    border: 1px;
+    border-radius: 4px;
+    color: rgb(90, 90, 90);
+}
